@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.material-icons-outlined{
+    font-size: 1.8rem;
+}
+.material-icons{
+    font-size: 1.8rem;
+}
+.margin{
+    margin: .5rem 0rem;
+}
+
+/* start navbar */
+
+.navbar{
+    display: flex;
+    height: 8vh;
+    position: sticky;
+    width: 98%;
+    justify-content: space-between;
+    gap: 4vw;
+    padding: 1vh 1.5vw;
+}
+.nav-left{
+width: 15vw;
+}
+
+#menu{
+    padding-top: rem;
+}
+#logo{
+    height: 1.7rem;
+    padding-left: 1.2rem;
+}
+
+.nav-middle{
+    width: 45vw;
+    display: flex;
+    gap: 1rem;
+}
+.search-box{
+    border: 1px solid #cccc;
+    display: flex;
+    height: 5vh;
+}
+input{
+        border: none;
+        outline: none;
+        width: 35vw;
+        padding-left: .8rem;  
+        font-size: 16pt;  
+        /* color: #ccc;   */
+} 
+#search-btn{
+    background-color: #f9f9f9;
+    border: none;
+    border-left: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4vw;
+} 
+#mic{
+    border-radius: 50%;
+    background-color: #f9f9f9;
+    height: 5vh;
+    width: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+
+.nav-right{
+    width:15vw;
+    padding: 1rem 0rem 0rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+/* End navbar */
+
+/* start main section */
+
+.main{
+    width: 98vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* start sidenav */
+
+.side-nav{
+    width: 16vw;
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+}
+.menu-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1.4rem;
+    padding: .5rem 0rem .5rem 2rem;    
+}
+ #menu-item-heading{
+    font-size: 14pt;
+    font-weight: 300;
+}
+
+.menu-item:hover{
+    background-color: #d9d9d9;
+    font-weight: 500;
+}
+
+
+/* End sidenav */
+
+/* strat main container */
+
+.main-container{
+    height: 90vh;
+    width: 84vw;
+    background-color: #f9f9f9;
+}
+.container-filter{
+    padding: 1rem;
+    display:flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.options{
+    border-radius: 1rem;
+    background-color: #f3f3f3;
+    padding: .5rem;
+    border: 1px solid #cecece;
+}
+
+/* End main container */
+
+/* end main section */
+
+
+
+
+
